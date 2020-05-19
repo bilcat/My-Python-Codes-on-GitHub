@@ -16,3 +16,6 @@ def make_readable(seconds):
     ss = (seconds % 60)
 
     return "{:02d}:{:02d}:{:02d}".format(hh, mm, ss)
+
+
+print(make_readable(3658))
